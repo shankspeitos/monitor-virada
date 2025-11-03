@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-11-03T03:36:33.032714",
+  "total_tests": 7,
+  "passed_tests": 7,
+  "success_rate": "100.0%",
+  "test_details": [
+    {
+      "test": "API Root",
+      "success": true,
+      "details": "Status: 200, Message: Comeback Scout API"
+    },
+    {
+      "test": "GET Live Matches",
+      "success": true,
+      "details": "Status: 200, Matches count: 4, Structure valid"
+    },
+    {
+      "test": "GET Alerts",
+      "success": true,
+      "details": "Status: 200, Alerts count: 21, Structure valid"
+    },
+    {
+      "test": "GET Superteams",
+      "success": true,
+      "details": "Status: 200, Superteams count: 6, All expected teams present"
+    },
+    {
+      "test": "POST Check Comebacks",
+      "success": true,
+      "details": "Status: 200, Alerts created: 3"
+    },
+    {
+      "test": "GET Specific Match",
+      "success": true,
+      "details": "Status: 404, Correctly returns 404 for non-existent match"
+    },
+    {
+      "test": "POST Mark Alert Read",
+      "success": true,
+      "details": "Status: 200, Success: True"
+    }
+  ]
+}
